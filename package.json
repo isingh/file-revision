@@ -2,7 +2,7 @@
   "name": "file-revision",
   "version": "1.0.0",
   "description": "File revision based on their content",
-  "main": "./main/file-revision",
+  "main": "./lib/file-revision",
   "scripts": {
     "prepublish": "rm -rf lib && coffee --bare --output lib/ src/",
     "test": "node_modules/.bin/mocha -R list --require test/common.coffee --compilers coffee:coffee-script/register"
